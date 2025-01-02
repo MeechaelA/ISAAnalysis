@@ -23,7 +23,7 @@ def main():
     pressure = []
     density = []
 
-    with open('output_file.csv', 'r') as file:
+    with open('isa_results.csv', 'r') as file:
         reader = csv.DictReader(file)
         for row in reader:
             altitude.append(float(row['altitude']))
